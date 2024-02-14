@@ -1,0 +1,14 @@
+.bottom-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-bottom-grid {
+  flex: 0 0 50%;
+
+  .photo-bottom-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
