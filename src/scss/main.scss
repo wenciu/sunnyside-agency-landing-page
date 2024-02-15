@@ -12,11 +12,12 @@
 @import "./src/scss/components/hero.scss";
 @import "./src/scss/components/top-grid.scss";
 @import "./src/scss/components/testimonials.scss";
-
-@import "./src/scss/components/footer.scss";
 @import "./src/scss/components/bottom-grid.scss";
 
 // // SCSS PARTIALS
+
+@import "./src/scss/partials/nav.scss";
+@import "./src/scss/partials/footer.scss";
 @import "./src/scss/partials/single-testimonial.scss";
 
 body {

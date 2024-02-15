@@ -1,5 +1,16 @@
 .testimonials-container {
-  // width: 100vw;
+  padding-top: 80px;
+  width: 100vw;
+
+  h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $GrayishBlue;
+    padding-bottom: 80px;
+  }
 
   .single-testimonial-container {
     display: flex;
@@ -16,17 +27,25 @@
     .description {
       text-align: center;
       line-height: 1.8;
-      width: 90vw;
+      width: 75vw;
       margin: 40px 0px 40px 0px;
-      font-weight: 600;
+
+      p {
+        color: $VeryDarkGrayishBlue;
+      }
     }
     .name-job-container {
       text-align: center;
       margin-bottom: 70px;
       .name {
         font-family: "Fraunces", serif;
-        font-weight: 900;
-        padding-bottom: 20px;
+        color: $VeryDarkDesaturatedBlue;
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+      }
+      .job {
+        color: $GrayishBlue;
+        font-size: 1rem;
       }
     }
   }
