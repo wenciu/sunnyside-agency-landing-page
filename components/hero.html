@@ -1,5 +1,16 @@
 <div class="hero-container">
-  <img class="hero-img" src="/src/img/mobile/image-header.jpg" alt="hero-img" />
+  <img
+    loading="lazy"
+    class="hero-img"
+    srcset="
+      /src/img/mobile/image-header.jpg   480w,
+      /src/img/desktop/image-header.jpg 1000w
+    "
+    src="/src/img/desktop/image-header.jpg"
+    sizes="(max-width: 1200px) 100vw"
+    alt="hero-img"
+  />
+
   <div class="nav-content">
     <svg
       class="logo"
@@ -13,6 +24,18 @@
         fill-rule="nonzero"
       />
     </svg>
+    <div class="nav-full">
+  <nav>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Projects</a></li>
+
+      <li class="contact-full"><a href="">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
     <svg
       class="hamburger"
       width="24"
@@ -28,13 +51,13 @@
   </div>
 
   <div class="overlay-content">
-    <div class="nav-container">
+    <div class="nav-mobile">
   <nav>
     <ul>
       <li><a href="">About</a></li>
       <li><a href="">Services</a></li>
       <li><a href="">Projects</a></li>
-      <div class="contact">
+      <div class="contact-mobile">
         <li><a href="">Contact</a></li>
       </div>
     </ul>

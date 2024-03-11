@@ -10,5 +10,6 @@ $DarkGrayishBlue: hsl(232, 10%, 55%);
 $GrayishBlue: hsl(210, 4%, 67%);
 $White: hsl(0, 0%, 100%);
 
-// $circleSize: 70px;
-$gap: 20px;
+// Breakpoints
+$breakpoint-tablet: 600px;
+$breakpoint-desktop: 1024px;
