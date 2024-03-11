@@ -52,7 +52,7 @@
   }
 
   .arrow-img {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 }
 
@@ -72,6 +72,14 @@
     .logo {
       scale: 1.5;
       margin-left: 40px;
+      margin-top: 10px;
     }
+  }
+
+  .overlay-content h1 {
+    font-size: 3.5rem;
+  }
+  .arrow-img {
+    padding-top: 60px;
   }
 }

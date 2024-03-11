@@ -18,28 +18,6 @@
         text-decoration: none;
       }
     }
-
-    // .contact-full {
-    //   display: flex;
-    //   justify-content: center;
-    //   align-items: center;
-    //   height: 45px;
-    //   width: 135px;
-    //   border-radius: 20px;
-    //   background-color: white;
-    //   margin-top: 20px;
-
-    //   li {
-    //     font-size: 1rem;
-    //     font-family: "Fraunces", serif;
-    //     text-transform: uppercase;
-    //     font-weight: 800;
-    //   }
-
-    //   a {
-    //     color: #3a3316;
-    //   }
-    // }
   }
 }
 
@@ -50,6 +28,40 @@
 // Desktop breakpoint
 @media screen and (min-width: $breakpoint-desktop) {
   .nav-full {
-    display: block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    ul {
+      align-items: center;
+      margin-right: 30px;
+      li {
+        font-size: 1.3rem;
+      }
+      .contact-full {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 130px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 1.1rem;
+        font-family: "Fraunces", serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #3a3316;
+      }
+
+      .contact-full:hover,
+      .contact-full:hover a {
+        color: rgba(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
   }
 }
+
+// #p1 {background-color:rgb(255,0,0);opacity:0.6;}
+// .contact-full:hover,
+// .contact-full:hover a {

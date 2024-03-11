@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  color: $DarkCyanText;
+
   background-color: $GrayishBlue;
 
   .logo-container {
@@ -19,6 +19,10 @@
       justify-content: space-around;
       align-items: center;
     }
+    li {
+      color: $DarkCyanText;
+      transition: 0.3s ease;
+    }
   }
   .social-icons-container {
     width: 100vw;
@@ -28,11 +32,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      li {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+    }
+    li svg {
+      padding-left: 20px;
+      padding-right: 20px;
+      fill: #2c7566;
+      transition: fill 0.3s ease;
     }
   }
 
@@ -40,5 +45,29 @@
   ul.social-icons {
     cursor: pointer;
     list-style: none;
+  }
+}
+
+// Desktop breakpoint
+@media screen and (min-width: $breakpoint-desktop) {
+  .links-container {
+    display: flex;
+    justify-content: center;
+
+    li {
+      font-size: 1.4rem;
+      padding: 0px 30px 0px 30px;
+    }
+    li:hover {
+      color: white;
+    }
+  }
+
+  .social-icons {
+    scale: 1.4;
+
+    li:hover svg {
+      fill: #fff;
+    }
   }
 }
