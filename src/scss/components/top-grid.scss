@@ -10,7 +10,6 @@
 
   img {
     width: 100%;
-    // height: auto;
     display: block;
   }
 
@@ -149,8 +148,16 @@
   }
   .item-5 {
     order: 5;
+
+    .graphic-design {
+      width: 35vw;
+    }
   }
   .item-6 {
     order: 6;
+
+    .photography {
+      width: 35vw;
+    }
   }
 }
