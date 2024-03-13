@@ -1,15 +1,18 @@
 .nav-mobile {
   display: none;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: -35px;
+  top: 90px;
+  left: 50vw;
+  transform: translate(-50%, 0%);
   width: 300px;
-  height: 300px;
+  height: 330px;
   background-color: white;
   clip-path: polygon(0 8%, 92% 8%, 100% 0, 100% 100%, 0 100%);
 
   ul {
+    position: relative;
     text-align: center;
     font-family: Barlow, sans-serif;
     list-style: none;
@@ -27,21 +30,17 @@
     }
 
     .contact-mobile {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 45px;
-      width: 135px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 40px;
+      width: 130px;
       border-radius: 20px;
       background-color: $Yellow;
-      margin-top: 20px;
-
-      li {
-        font-size: 1rem;
-        font-family: "Fraunces", serif;
-        text-transform: uppercase;
-        font-weight: 900;
-      }
+      margin-top: 25px;
+      font-size: 1rem;
+      font-family: "Fraunces", serif;
+      text-transform: uppercase;
+      font-weight: 900;
 
       a {
         color: #3a3316;

@@ -37,6 +37,13 @@
       margin-right: 30px;
       li {
         font-size: 1.3rem;
+
+        &:last-child {
+          a:hover {
+            color: rgba(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.3);
+          }
+        }
       }
       .contact-full {
         display: flex;
@@ -51,12 +58,6 @@
         text-transform: uppercase;
         font-weight: 800;
         color: #3a3316;
-      }
-
-      .contact-full:hover,
-      .contact-full:hover a {
-        color: rgba(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.3);
       }
     }
   }

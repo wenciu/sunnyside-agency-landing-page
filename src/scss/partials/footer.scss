@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-
   background-color: $GrayishBlue;
 
   .logo-container {
@@ -19,7 +18,8 @@
       justify-content: space-around;
       align-items: center;
     }
-    li {
+    a {
+      text-decoration: none;
       color: $DarkCyanText;
       transition: 0.3s ease;
     }
@@ -57,9 +57,14 @@
     li {
       font-size: 1.4rem;
       padding: 0px 30px 0px 30px;
-    }
-    li:hover {
-      color: white;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: white;
+        }
+      }
     }
   }
 
