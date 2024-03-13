@@ -1,0 +1,39 @@
+.nav-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+
+  .logo {
+    padding-left: 10px;
+  }
+  .hamburger {
+    padding-right: 15px;
+  }
+}
+
+// Desktop breakpoint
+@media screen and (min-width: $breakpoint-tablet) {
+}
+
+// Desktop breakpoint
+@media screen and (min-width: $breakpoint-desktop) {
+  .nav-content {
+    margin-top: 20px;
+
+    .logo {
+      scale: 1.5;
+      margin-left: 40px;
+      margin-top: 10px;
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+}
